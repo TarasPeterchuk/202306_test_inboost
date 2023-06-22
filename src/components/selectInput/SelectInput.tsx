@@ -30,7 +30,7 @@ const SelectInput: React.FC<SelectInputProps> = ({
       <Select
         labelId="demo-select-small-label"
         id="demo-select-small"
-        value={`${index != -1 ? dataValues[index] : ''}`}
+        value={`${index !== -1 ? dataValues[index] : ''}`}
         label="Вибрати значення"
         onChange={handleChange}
       >

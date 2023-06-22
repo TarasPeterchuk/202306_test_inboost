@@ -10,7 +10,7 @@
 Main features:
 
 - add infinite number of subOptions
-- remove remove all of the following Options by setting "пусто" value
+- remove all of the following Options by setting "пусто" value
 - change Option value - value will change in all following Options
 
 ### The tech stack is:

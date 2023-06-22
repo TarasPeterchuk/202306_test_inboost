@@ -20,13 +20,8 @@ const SelectInput: React.FC<SelectInputProps> = ({
   dataValues,
 }) => {
   const handleChange = (event: SelectChangeEvent) => {
-    // console.log(event.target.value);
-    // dataValues[index] = parseInt(event.target.value);
     const newValue = parseInt(event.target.value);
-    // console.log(dataValues);
     updateOptions(index, newValue);
-
-    // setAge(event.target.value);
   };
 
   return (

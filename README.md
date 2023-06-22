@@ -10,7 +10,7 @@
 Main features:
 
 - add infinite number of subOptions
-- remove Categories
+- remove Options
 - scale board
 - move board
 

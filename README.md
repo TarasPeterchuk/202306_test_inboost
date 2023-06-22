@@ -1,6 +1,6 @@
 # Options board - React, Redux, TypeScript project. Data stored in API
 
-### [Site link](https://options-board-test-task.netlify.app/1)
+### [Site link](https://options-board-test-task.netlify.app/)
 
 `package.json` contains all modules are needed<br>
 `npm i` install modules<br>

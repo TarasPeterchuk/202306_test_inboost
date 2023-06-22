@@ -1,4 +1,4 @@
-import './container.scss';
+import './board.scss';
 import { connect } from 'react-redux';
 import React, { useEffect } from 'react';
 import * as optionsAction from '../options.actions';
@@ -14,10 +14,10 @@ const options = [
   { value: 6, label: 'Варіант 6' },
 ];
 
-const Container: React.FC<any> = ({ optionsList, getOptionsList }) => {
+const Board: React.FC<any> = ({ optionsList, getOptionsList }) => {
   useEffect(() => {
     getOptionsList();
-  }, []);
+  }, [getOptionsList]);
 
   return (
     <>
@@ -56,4 +56,4 @@ const mapstate = (state: any) => {
     optionsList: optionsListSelector(state),
   };
 };
-export default connect(mapstate, mapDispatch)(Container);
+export default connect(mapstate, mapDispatch)(Board);
